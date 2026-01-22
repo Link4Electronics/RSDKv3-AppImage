@@ -19,7 +19,7 @@ source=(
 )
 sha256sums=(
 	'SKIP'
-	'8f24c0150f426a693271317a017ffc11116e6710bbc7a7589542a913bd78adac'
+	'SKIP'
 )
 
 _safe_cd() {
