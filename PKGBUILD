@@ -38,7 +38,6 @@ prepare() {
 	_safe_cd "$srcdir/RSDKv3-Decompilation"
 	git submodule init
 	git -c protocol.file.allow=always submodule update
-	patch -Np1 -i "${srcdir}/big-endian-fix.patch"
 }
 
 build() {
