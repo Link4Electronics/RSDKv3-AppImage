@@ -10,9 +10,11 @@ export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=/usr/share/icons/RSDKv3.ico
 export DESKTOP=/usr/share/applications/soniccd.desktop
+export DEPLOY_OPENGL=1
+export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/RSDKv3
+quick-sharun /usr/bin/RSDKv3 /usr/lib/libdecor/*/libdecor-cairo.so
 
 # Additional changes can be done in between here
 
