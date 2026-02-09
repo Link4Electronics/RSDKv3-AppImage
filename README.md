@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/RSDKv3-AppImage)](https://github.com/pkgforge-dev/RSDKv3-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/RSDKModding/RSDKv3-Decompilation/raw/master/header.png" width="1024" />
+  <img src="https://github.com/RSDKModding/RSDKv3-Decompilation/blob/master/RSDKv3/RSDKv3%20Decomp%20Icon.ico?raw" width="128" />
 </p>
 
 
