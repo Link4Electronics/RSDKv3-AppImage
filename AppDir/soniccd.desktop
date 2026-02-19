@@ -3,4 +3,6 @@ Name=Sonic CD
 Exec=RSDKv3
 Icon=RSDKv3
 Type=Application
+StartupWMClass=RSDKv3
 Categories=Game
+Terminal=false
