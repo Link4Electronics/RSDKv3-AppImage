@@ -1,4 +1,4 @@
 #!/bin/sh
-dir=${XDG_DATA_HOME:-~/.local/share}/soniccd
+dir=$DATADIR/soniccd
 mkdir -p "$dir"
 cd "$dir"
